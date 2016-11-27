@@ -19,13 +19,13 @@ public class My_View extends View {
         super(context, attrs);
         setBackgroundColor(Color.BLACK);
         lines = new LinkedList<>();
-        Log.v("brad", "MyView()");
+        Log.v("ppking", "MyView()");
     }
 
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        Log.v("brad", "onDraw()");
+        Log.v("ppking", "onDraw()");
         Paint paint = new Paint();
         paint.setColor(Color.YELLOW);
         paint.setStrokeWidth(4);

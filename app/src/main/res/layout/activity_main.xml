@@ -14,6 +14,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="clear"
             android:text="Clear"
             />
         <Button
@@ -35,6 +36,7 @@
     </LinearLayout>
 
     <com.example.user.ppking_android_class05.My_View
+        android:id="@+id/myview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
